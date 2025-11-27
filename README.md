@@ -24,7 +24,7 @@ Discrete Mathematics is the language of Computer Science. It's essential for:
 
 ## 📂 Projects
 
-### Diagonal Puzzle (`diagonales.ipynb`)
+### 1. Diagonal Puzzle (`diagonales.ipynb`)
 **Problem**: Draw 16 non-intersecting diagonals on a 5×5 grid.
 
 **Concepts Covered**:
@@ -34,6 +34,23 @@ Discrete Mathematics is the language of Computer Science. It's essential for:
 - Recursive problem solving
 
 **Solution Approach**: Uses a backtracking algorithm to explore all possible diagonal placements while ensuring no two diagonals share a common vertex on the 6×6 grid of intersection points.
+
+---
+
+### 2. Frobenius Coin Problem (`recursion.ipynb`)
+**Problem**: Given only 5- and 7-coins, what is the maximum amount that cannot be paid?
+
+**Concepts Covered**:
+- Recursion and memoization
+- Dynamic programming
+- Number theory (Frobenius number)
+- Greatest common divisor (GCD)
+- Chicken McNugget Theorem
+
+**Solution Approach**: 
+- **Mathematical formula**: For coprime integers a and b, the Frobenius number is `g(a,b) = ab - a - b`
+- **Computational verification**: Uses dynamic programming to verify which amounts can/cannot be paid
+- **Result**: For 5 and 7 coins, the answer is **23** (the largest unpayable amount)
 
 ## 🚀 Getting Started
 
